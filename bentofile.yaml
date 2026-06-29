@@ -1,0 +1,18 @@
+service: "service:EnergyService"
+description: "API de prédiction de consommation énergétique - Projet Seattle"
+labels:
+  owner: oumayma
+  stage: production
+
+models:
+  - "seattle_energy_model:latest" 
+
+include:
+  - "service.py"
+
+python:
+  packages:
+    - scikit-learn==1.6.1
+    - pandas
+    - pydantic
+    - numpy
