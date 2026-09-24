@@ -33,5 +33,7 @@ pip install -r requirements.txt
 Lancer le service BentoML :
 bentoml serve service:svc
 
+## Résultats
+    Modèle de machine learning de prédiction exposé en API
 ---
 Formation Data Engineer - OpenClassrooms
